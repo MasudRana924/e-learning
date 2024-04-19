@@ -1,0 +1,9 @@
+.left-sidebar {
+    overflow-y: auto;
+}
+.left-sidebar::-webkit-scrollbar {
+    width: 0; 
+}
+.left-sidebar::-webkit-scrollbar-track {
+    background-color: transparent; 
+}

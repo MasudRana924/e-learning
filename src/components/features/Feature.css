@@ -1,0 +1,19 @@
+.data-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  .card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  .coding-image{
+    background: linear-gradient(to right, #003049, #003049, #d62828);
+  }
