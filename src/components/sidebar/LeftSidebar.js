@@ -7,7 +7,7 @@ const LeftSidebar = ({ videos, playVideo, currentVideoIndex }) => {
         playVideo(index);
     };
     return (
-        <div className="left-sidebar  hidden lg:block w-2/4 h-96 ">
+        <div className="left-sidebar border border-gray-900 rounded lg:w-2/4 h-96 ">
             <div className="w-3/4 mx-auto">
                 <h2 className="text-gray-300 text-2xl mt-8 font-semibold text-start font-sans">Courses Outline</h2>
                 {videos.map((video, index) => (
